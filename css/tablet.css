@@ -1,0 +1,66 @@
+/* Phan thong tin tu nav-bar den cuoi */
+section > .container {
+    /* width: 1170px; */
+    margin:auto;
+    display:block;
+ 
+    padding: 30px 10px;
+    line-height: 25px;
+ }
+ /* 3 cot 2 hang */
+#job-info .container {
+    display:grid;
+    width: 80%;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+ }
+ 
+ .grid i {
+    display:grid;
+    grid-template-columns: 75% 25%;
+ }
+ 
+ .grid {
+    font-size: 36px;
+    margin-bottom: 30px;
+ }
+ 
+ .border-1 {
+    padding: 20px;
+    border-style: ridge;
+    border-width: 2px;
+ }
+ 
+ .border-1 h4 {
+    margin-top: 20px;
+ }
+ 
+ .timeline {
+    font-style: italic;
+ }
+ 
+ .timeline span {
+    background: rgb(111,156,199);
+    color:#f7f7f7;
+    border: 5px solid rgb(111,156,199);
+    border-radius: 20px;
+ }
+ 
+ .grid-2 {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    text-align: center;
+    gap: 10px;
+ }
+ 
+ .grid-2 i {
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid rgb(111,156,199);
+    border-radius: 50%;
+ }
+ /*Link dự án*/
+.link {
+    text-decoration: none;
+  }
